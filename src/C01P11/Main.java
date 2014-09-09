@@ -21,7 +21,7 @@ public class Main {
         }
     }
 
-    public static int born(int years){
+    public static int born(int years) {
         final int SECONDS_FOR_BIRTH = 7;
 
         return totalSeconds(years) / SECONDS_FOR_BIRTH;
